@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.snoop.expensetracker.app-mergeDebugResources-69:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/icebear/.gradle/caches/9.3.0/transforms/e23f0a4b10eee9d2dccd0a2d21218bbf/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

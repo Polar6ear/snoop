@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.snoop.expensetracker.app-mergeDebugResources-69:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/icebear/.gradle/caches/9.3.0/transforms/e23f0a4b10eee9d2dccd0a2d21218bbf/transformed/appcompat-1.2.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

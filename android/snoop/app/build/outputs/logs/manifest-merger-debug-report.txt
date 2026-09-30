@@ -1,0 +1,703 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml:2:1-4:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/d378eebffca2e188df501d37ccc62631/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/9a65494a12d89987ac3b89f50e60a521/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/02787843ba48c7fb17f18ed11ae673d4/transformed/navigation-common-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/cb934b44458808f54ec169e9cad192ab/transformed/navigation-runtime-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/dae7b058e3d03d9485a0731da7540603/transformed/navigation-common-ktx-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/0068af6d0d012e78e4d333c3bf0d7895/transformed/navigation-runtime-ktx-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/e1f5a8ceaf5c48ba02227b8dde77939b/transformed/navigation-compose-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.hilt:hilt-work:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/cb168d6c313b2e315e1d66689ac342bb/transformed/hilt-work-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.52] /Users/icebear/.gradle/caches/9.3.0/transforms/f36c1dc3374e612cfe6a759ca68db427/transformed/hilt-android-2.52/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/e23f0a4b10eee9d2dccd0a2d21218bbf/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/icebear/.gradle/caches/9.3.0/transforms/0b093bd0332eaef7a668a6445934b829/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/6fe64129f2fe3fd0348f5b13d145604a/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/db54d488d30c99d733ed29a451f0063e/transformed/work-runtime-ktx-2.9.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/b37a145eb28db04718772bc39225e8ba/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/50618bbecaf67c1cbd456bccc6f489c5/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/6be6889c576937458317e5f86b4c6a5f/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/21df55b0476c402fcaddd4b93b1a7bc9/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3a6d3831da9396ff65becb1b58167683/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/83c46e55407d35a36bfb5f3e7c8e5c29/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/818433cfbf7871b182a852ec657acf49/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/b68c0621c0bef24d43a9c2c3070de67e/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/b99fc93c3f3b2bbc9acd43cbd0315e0b/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/aff16efa75dbcf1e954d6b9c8d4910f6/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/d6400ea71ce1801aa106805d27cd25b8/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/7408a96e4c277fbf3451f5f64b35a44e/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3ba5324b387bf1b6b072819cc89b2092/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/323cbd7fb69817f9822ccf8e84034ca9/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/icebear/.gradle/caches/9.3.0/transforms/7ed612becedd7e377eae330d00cea217/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ff230cad577af3c1a01f23d53d350db6/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/05b3a707cf637ba2b9e682613a1598c9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/76fcc53183d6a2b51cc250805670a244/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/eb8db1f95172b98d1ffecd818c42d4b1/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/58a717649e22d53ca702818186320494/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/a9ac0563b8b3e384362566bbf779f30b/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/018ffa9813aacdf6434f65d0cd8a1141/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/bc17b41416a551b29cda77f5d53a4c47/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/c3ea928708b620f2131af2998ab5cbed/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/44f36826e6f6ff09d7408d038efd8dce/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/icebear/.gradle/caches/9.3.0/transforms/7c81b3cdd6b71a85d0c7af00cddb709d/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/2608da7b737c6303ebd13ff55aace571/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/2b271b790bf7f59a7075a2a352492fc5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/4deb403d07c38dbc1be5e5345a153938/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/95f4a62a2f23c68b82b02d9e4b3e1773/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/b2ba3f1bf3986c14bd7fc4560b5f754a/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/77240d872feb221a1f47987db0451568/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/74c84d532693014cad9f533b0fb29122/transformed/lifecycle-service-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/7234fc9ff0d8ef8cb195a7d9f6e4465a/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/9856220262a1653018ddd6676756bb82/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/374715fbcb0b07a9e0f581b3354aceb9/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/0582b6ecdf39e07d991b647b4bdb42c7/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/3f41f91ea6f525d884f651ff6e6998c9/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/9a0947c209e0247c4ccc5214d95a7698/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/a6c796eeb8213342908babf231a6407c/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/dedcfd849d2b6b0600da69aac6614814/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3f86188264e88b52ccd29222958a1dcc/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/2ecceb7f3f9902aa900e7c5db7c551f5/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/dd36623612bd462a77164f84ac1bcc1f/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/35068f555091e7853dbfb10b30aff877/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/41caaecf4d31d258412c42f4d420257d/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/df1204b9be9ac6d8fb0d63ca9b1d9b6f/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ca09c5d460cdd235ef5382596f99ccb1/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/0401142d9487c2f5c4a9dfd5a38690fd/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/bb8a4c00e1f3b5673b9a14fb5ee53117/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/icebear/.gradle/caches/9.3.0/transforms/abc2245d8938207d55533e204fa6771f/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/icebear/.gradle/caches/9.3.0/transforms/482d66bf85a46bcb03d1b0c1d4adeec1/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/icebear/.gradle/caches/9.3.0/transforms/fe75f826b9fd11772d736d24b0fcd089/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/68b95f3bcbb25acc703f4d409abb24e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/1c8a62f978cbd9a5f976bce8dfb2b3ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/ceb96ca20f8090927f825f300272c77b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/530520a448b603876c6fd17ace2bb660/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/c2c02ef52d9bbd62f3db84eed8fd0325/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.52] /Users/icebear/.gradle/caches/9.3.0/transforms/872d82d40fef86800db0356be05581cd/transformed/dagger-lint-aar-2.52/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:11:22-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:14:5-81
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:14:22-78
+application
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:23:5-51:19
+MERGED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:23:5-51:19
+MERGED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:23:5-51:19
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml:3:5-56
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/68b95f3bcbb25acc703f4d409abb24e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/68b95f3bcbb25acc703f4d409abb24e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:28:9-35
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:27:9-41
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:26:9-43
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:25:9-36
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:25:9-36
+	android:theme
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:29:9-43
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:29:9-43
+	android:usesCleartextTraffic
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml:3:18-53
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:24:9-41
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:24:9-41
+activity#com.snoop.expensetracker.ui.MainActivity
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:31:9-39:20
+	android:exported
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:33:13-36
+	android:theme
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:34:13-47
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:32:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:37:27-74
+service#com.snoop.expensetracker.notification.SnoopNotificationListenerService
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:41:9-49:19
+	android:label
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:44:13-45
+	android:exported
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:45:13-87
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:42:13-74
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:46:13-48:29
+action#android.service.notification.NotificationListenerService
+ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:47:17-99
+	android:name
+		ADDED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/main/AndroidManifest.xml:47:25-96
+uses-sdk
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/d378eebffca2e188df501d37ccc62631/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/d378eebffca2e188df501d37ccc62631/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/9a65494a12d89987ac3b89f50e60a521/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/9a65494a12d89987ac3b89f50e60a521/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/02787843ba48c7fb17f18ed11ae673d4/transformed/navigation-common-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/02787843ba48c7fb17f18ed11ae673d4/transformed/navigation-common-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/cb934b44458808f54ec169e9cad192ab/transformed/navigation-runtime-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/cb934b44458808f54ec169e9cad192ab/transformed/navigation-runtime-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/dae7b058e3d03d9485a0731da7540603/transformed/navigation-common-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/dae7b058e3d03d9485a0731da7540603/transformed/navigation-common-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/0068af6d0d012e78e4d333c3bf0d7895/transformed/navigation-runtime-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/0068af6d0d012e78e4d333c3bf0d7895/transformed/navigation-runtime-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/e1f5a8ceaf5c48ba02227b8dde77939b/transformed/navigation-compose-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.1] /Users/icebear/.gradle/caches/9.3.0/transforms/e1f5a8ceaf5c48ba02227b8dde77939b/transformed/navigation-compose-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-work:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/cb168d6c313b2e315e1d66689ac342bb/transformed/hilt-work-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-work:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/cb168d6c313b2e315e1d66689ac342bb/transformed/hilt-work-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.52] /Users/icebear/.gradle/caches/9.3.0/transforms/f36c1dc3374e612cfe6a759ca68db427/transformed/hilt-android-2.52/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.52] /Users/icebear/.gradle/caches/9.3.0/transforms/f36c1dc3374e612cfe6a759ca68db427/transformed/hilt-android-2.52/AndroidManifest.xml:18:3-42
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/e23f0a4b10eee9d2dccd0a2d21218bbf/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/e23f0a4b10eee9d2dccd0a2d21218bbf/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/icebear/.gradle/caches/9.3.0/transforms/0b093bd0332eaef7a668a6445934b829/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/icebear/.gradle/caches/9.3.0/transforms/0b093bd0332eaef7a668a6445934b829/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/6fe64129f2fe3fd0348f5b13d145604a/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/6fe64129f2fe3fd0348f5b13d145604a/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/db54d488d30c99d733ed29a451f0063e/transformed/work-runtime-ktx-2.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/db54d488d30c99d733ed29a451f0063e/transformed/work-runtime-ktx-2.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/b37a145eb28db04718772bc39225e8ba/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/b37a145eb28db04718772bc39225e8ba/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/50618bbecaf67c1cbd456bccc6f489c5/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/50618bbecaf67c1cbd456bccc6f489c5/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/6be6889c576937458317e5f86b4c6a5f/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/6be6889c576937458317e5f86b4c6a5f/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/21df55b0476c402fcaddd4b93b1a7bc9/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/21df55b0476c402fcaddd4b93b1a7bc9/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3a6d3831da9396ff65becb1b58167683/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3a6d3831da9396ff65becb1b58167683/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/83c46e55407d35a36bfb5f3e7c8e5c29/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/83c46e55407d35a36bfb5f3e7c8e5c29/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/818433cfbf7871b182a852ec657acf49/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/818433cfbf7871b182a852ec657acf49/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/b68c0621c0bef24d43a9c2c3070de67e/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/b68c0621c0bef24d43a9c2c3070de67e/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/b99fc93c3f3b2bbc9acd43cbd0315e0b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/b99fc93c3f3b2bbc9acd43cbd0315e0b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/aff16efa75dbcf1e954d6b9c8d4910f6/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/aff16efa75dbcf1e954d6b9c8d4910f6/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/d6400ea71ce1801aa106805d27cd25b8/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/d6400ea71ce1801aa106805d27cd25b8/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/7408a96e4c277fbf3451f5f64b35a44e/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/7408a96e4c277fbf3451f5f64b35a44e/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3ba5324b387bf1b6b072819cc89b2092/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3ba5324b387bf1b6b072819cc89b2092/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/323cbd7fb69817f9822ccf8e84034ca9/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/323cbd7fb69817f9822ccf8e84034ca9/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/icebear/.gradle/caches/9.3.0/transforms/7ed612becedd7e377eae330d00cea217/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/icebear/.gradle/caches/9.3.0/transforms/7ed612becedd7e377eae330d00cea217/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ff230cad577af3c1a01f23d53d350db6/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ff230cad577af3c1a01f23d53d350db6/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/05b3a707cf637ba2b9e682613a1598c9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/05b3a707cf637ba2b9e682613a1598c9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/76fcc53183d6a2b51cc250805670a244/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/76fcc53183d6a2b51cc250805670a244/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/eb8db1f95172b98d1ffecd818c42d4b1/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/eb8db1f95172b98d1ffecd818c42d4b1/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/58a717649e22d53ca702818186320494/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/58a717649e22d53ca702818186320494/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/a9ac0563b8b3e384362566bbf779f30b/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/a9ac0563b8b3e384362566bbf779f30b/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/018ffa9813aacdf6434f65d0cd8a1141/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/018ffa9813aacdf6434f65d0cd8a1141/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/bc17b41416a551b29cda77f5d53a4c47/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/bc17b41416a551b29cda77f5d53a4c47/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/c3ea928708b620f2131af2998ab5cbed/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/c3ea928708b620f2131af2998ab5cbed/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/44f36826e6f6ff09d7408d038efd8dce/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/44f36826e6f6ff09d7408d038efd8dce/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/icebear/.gradle/caches/9.3.0/transforms/7c81b3cdd6b71a85d0c7af00cddb709d/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/icebear/.gradle/caches/9.3.0/transforms/7c81b3cdd6b71a85d0c7af00cddb709d/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/2608da7b737c6303ebd13ff55aace571/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/2608da7b737c6303ebd13ff55aace571/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/2b271b790bf7f59a7075a2a352492fc5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/2b271b790bf7f59a7075a2a352492fc5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/4deb403d07c38dbc1be5e5345a153938/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/4deb403d07c38dbc1be5e5345a153938/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/95f4a62a2f23c68b82b02d9e4b3e1773/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/95f4a62a2f23c68b82b02d9e4b3e1773/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/b2ba3f1bf3986c14bd7fc4560b5f754a/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/b2ba3f1bf3986c14bd7fc4560b5f754a/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/77240d872feb221a1f47987db0451568/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/77240d872feb221a1f47987db0451568/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/74c84d532693014cad9f533b0fb29122/transformed/lifecycle-service-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/74c84d532693014cad9f533b0fb29122/transformed/lifecycle-service-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/7234fc9ff0d8ef8cb195a7d9f6e4465a/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/7234fc9ff0d8ef8cb195a7d9f6e4465a/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/9856220262a1653018ddd6676756bb82/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/9856220262a1653018ddd6676756bb82/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/374715fbcb0b07a9e0f581b3354aceb9/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/374715fbcb0b07a9e0f581b3354aceb9/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/0582b6ecdf39e07d991b647b4bdb42c7/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/0582b6ecdf39e07d991b647b4bdb42c7/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/3f41f91ea6f525d884f651ff6e6998c9/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/3f41f91ea6f525d884f651ff6e6998c9/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/9a0947c209e0247c4ccc5214d95a7698/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/9a0947c209e0247c4ccc5214d95a7698/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/a6c796eeb8213342908babf231a6407c/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/a6c796eeb8213342908babf231a6407c/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/dedcfd849d2b6b0600da69aac6614814/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/dedcfd849d2b6b0600da69aac6614814/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3f86188264e88b52ccd29222958a1dcc/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/3f86188264e88b52ccd29222958a1dcc/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/2ecceb7f3f9902aa900e7c5db7c551f5/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/2ecceb7f3f9902aa900e7c5db7c551f5/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/dd36623612bd462a77164f84ac1bcc1f/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/icebear/.gradle/caches/9.3.0/transforms/dd36623612bd462a77164f84ac1bcc1f/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/35068f555091e7853dbfb10b30aff877/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/35068f555091e7853dbfb10b30aff877/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/41caaecf4d31d258412c42f4d420257d/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/41caaecf4d31d258412c42f4d420257d/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/df1204b9be9ac6d8fb0d63ca9b1d9b6f/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/df1204b9be9ac6d8fb0d63ca9b1d9b6f/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ca09c5d460cdd235ef5382596f99ccb1/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ca09c5d460cdd235ef5382596f99ccb1/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/0401142d9487c2f5c4a9dfd5a38690fd/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/0401142d9487c2f5c4a9dfd5a38690fd/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/bb8a4c00e1f3b5673b9a14fb5ee53117/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/bb8a4c00e1f3b5673b9a14fb5ee53117/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/icebear/.gradle/caches/9.3.0/transforms/abc2245d8938207d55533e204fa6771f/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/icebear/.gradle/caches/9.3.0/transforms/abc2245d8938207d55533e204fa6771f/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/icebear/.gradle/caches/9.3.0/transforms/482d66bf85a46bcb03d1b0c1d4adeec1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/icebear/.gradle/caches/9.3.0/transforms/482d66bf85a46bcb03d1b0c1d4adeec1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/icebear/.gradle/caches/9.3.0/transforms/fe75f826b9fd11772d736d24b0fcd089/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/icebear/.gradle/caches/9.3.0/transforms/fe75f826b9fd11772d736d24b0fcd089/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/68b95f3bcbb25acc703f4d409abb24e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/68b95f3bcbb25acc703f4d409abb24e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/1c8a62f978cbd9a5f976bce8dfb2b3ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/icebear/.gradle/caches/9.3.0/transforms/1c8a62f978cbd9a5f976bce8dfb2b3ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/ceb96ca20f8090927f825f300272c77b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/ceb96ca20f8090927f825f300272c77b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/530520a448b603876c6fd17ace2bb660/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/530520a448b603876c6fd17ace2bb660/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/c2c02ef52d9bbd62f3db84eed8fd0325/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/icebear/.gradle/caches/9.3.0/transforms/c2c02ef52d9bbd62f3db84eed8fd0325/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.52] /Users/icebear/.gradle/caches/9.3.0/transforms/872d82d40fef86800db0356be05581cd/transformed/dagger-lint-aar-2.52/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.52] /Users/icebear/.gradle/caches/9.3.0/transforms/872d82d40fef86800db0356be05581cd/transformed/dagger-lint-aar-2.52/AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/icebear/Downloads/Snoop-FINAL-DEMO-READY/android/snoop/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/icebear/.gradle/caches/9.3.0/transforms/7af55488d1e0b3afdbeb46c3438fd5f9/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:26:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/icebear/.gradle/caches/9.3.0/transforms/56093f2a689d12aa2239fe473534f08f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/icebear/.gradle/caches/9.3.0/transforms/261692addbd7630d6e9fffeaff9d4a07/transformed/work-runtime-2.9.1/AndroidManifest.xml:140:25-85
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /Users/icebear/.gradle/caches/9.3.0/transforms/16a4d54761c3233fc46ef2be4ffea77c/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/icebear/.gradle/caches/9.3.0/transforms/156ca7ec6aeb81d04331e6b2ba7c742c/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/icebear/.gradle/caches/9.3.0/transforms/67e733c544d254071f77f0a6fe49df59/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.snoop.expensetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.snoop.expensetracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/icebear/.gradle/caches/9.3.0/transforms/379e3ff7f6daeb5b4b1be40172515ba7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/icebear/.gradle/caches/9.3.0/transforms/ebb4a978cafd8683b145cfbc863e02b9/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/icebear/.gradle/caches/9.3.0/transforms/18b3c6cb48410a10255e4af6cae63dc8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

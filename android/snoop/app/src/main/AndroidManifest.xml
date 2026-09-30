@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Backend calls for AI fallback (spec §5, §9). -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Budget overspend warnings (spec §5) and pending-transaction alerts, Android 13+. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Optional: lets Snoop recognize payments to people already in the user's contacts. -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- WorkManager waking up for budget checks / backend sync needs this on some OEMs. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--
+        Deliberately NOT requesting READ_SMS / RECEIVE_SMS anywhere in this manifest.
+        See spec §4: those permissions are Play-Store-restricted to default SMS/Assistant
+        handlers, and a finance app doesn't qualify. BIND_NOTIFICATION_LISTENER_SERVICE
+        (added in Chunk 4 alongside the service itself) is the Play-Store-safe path.
+    -->
+
+    <application
+        android:name=".SnoopApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Snoop">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Snoop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".notification.SnoopNotificationListenerService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>
